@@ -1,13 +1,16 @@
 {
-  "name": "mi_api",
+  "name": "mi_api_lookfriends",
   "version": "1.0.0",
+  "description": "API proxy para lookfriends.xyz (RENIEC, SBS, etc.)",
   "main": "app.js",
   "scripts": {
-    "start": "index.js"
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^3.3.2"
   }
 }
-
